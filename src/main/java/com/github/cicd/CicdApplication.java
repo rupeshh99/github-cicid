@@ -11,7 +11,7 @@ public class CicdApplication {
 
 	@GetMapping
 	public String getMessage(){
-		return "ATTABOY !! KEEP IT UP.";
+		return "ATTABOY !! KEEP DOING";
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(CicdApplication.class, args);
